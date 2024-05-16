@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Spray Paints Sans;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Spray Paints Bold;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Spray Paints TenorSans;
+    src: url(../fonts/TenorSans-Regular.ttf);
+}
+
+* {
+    font-family: Spray Paints Sans, sans-serif;
+}
+
+header ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+}
+
+.top-nav {
+    background: #21426B;
+    color: #fff;
+}
+
+.top-nav li {
+    padding: 1rem;
+}
+
+.hero-section {
+    background-image: url('../img/hero-img-02.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-h1 {
+    font-size: calc(2vw + 1rem);
+    font-family: Spray Paints TenorSans, sans-serif;
+}
+
+.hero-h2 {
+    font-size: calc(1vw + 1rem);
+    font-family: Spray Paints Bold, sans-serif;
+}
+
+label {
+    font-family: Spray Paints Bold, sans-serif;
+}
+
+#hero-form {
+    background: #F9F9F9;
+    width: 28rem;
+    float: right;
+    margin-right: 3rem;
+    margin-top: 1rem;
+}
+
+input {
+    width: 100%;
+}
+
+.btn-spray {
+    background: #21426B;
+    color: #fff;
+    padding: .5rem;
+    width: 100%;
+    font-family: Spray Paints Bold, sans-serif;
+}
+
+.user {
+    background: #636BC6;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#brands figure img {
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.img {
+    width: 235.7329px;
+    height: 235.7329px;
+}
+
+p {
+    font-size: 22px;
+}
+
+li {
+    font-size: 22px;
+}
+
+.bg-gray {
+    background: #F2F2F2;
+}
+
+#rated {
+    background: #21426B;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+.tes {
+    width: calc(34vw + 1rem);
+}
+
+footer {
+    padding: 3rem calc(15vw + 1rem);
+}
+
+@media (max-width: 575.98px) {}
+
+@media (max-width: 767.98px) {
+
+    footer {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .testimonials {
+        flex-wrap: wrap;
+    }
+
+    .tes {
+        width: 100%;
+    }
+
+    #hero-form {
+        width: 100%;
+        float: none;
+    }
+}
